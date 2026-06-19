@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6835442412595640566}
   - component: {fileID: 3118832640391545158}
   m_Layer: 0
-  m_Name: Brazos
+  m_Name: BrazosD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -140,7 +140,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1017030533527040040}
-  - {fileID: 2104324302446191847}
   - {fileID: 813322165357898862}
   - {fileID: 326851391888229577}
   - {fileID: 7734869726557052820}
@@ -183,7 +182,7 @@ GameObject:
   - component: {fileID: 7724514155286161919}
   - component: {fileID: 8855331698021080793}
   m_Layer: 0
-  m_Name: Brazos
+  m_Name: BrazosI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -307,11 +306,11 @@ Transform:
   m_GameObject: {fileID: 3021762389480744962}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.20999908, y: 8.1, z: -0.73999786}
-  m_LocalScale: {x: 2.6969657, y: 2.3517838, z: 2.8334322}
+  m_LocalPosition: {x: -0.075758964, y: 0.19228448, z: 0}
+  m_LocalScale: {x: 0.97295344, y: 0.8484261, z: 1.0221848}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1993441544491383801}
+  m_Father: {fileID: 1017030533527040040}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1809551021525403784
 MeshFilter:
@@ -508,7 +507,7 @@ GameObject:
   - component: {fileID: 1707094812059038921}
   - component: {fileID: 9186727738093070043}
   m_Layer: 0
-  m_Name: Piernas
+  m_Name: PiernasI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -523,7 +522,7 @@ Transform:
   m_GameObject: {fileID: 4032682606524271273}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.05000019, z: -1.4300003}
+  m_LocalPosition: {x: 0, y: -0.05000019, z: -1.43}
   m_LocalScale: {x: 2.7719371, y: 4.1639714, z: 1.346133}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -617,7 +616,7 @@ GameObject:
   - component: {fileID: 1993428588105427440}
   - component: {fileID: 4862570059835726741}
   m_Layer: 0
-  m_Name: Piernas
+  m_Name: PiernasD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1176,7 +1175,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 7.567, z: -0.73999786}
   m_LocalScale: {x: 2.7719371, y: 2.7719371, z: 2.7719371}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2104324302446191847}
   m_Father: {fileID: 1993441544491383801}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &827762241637088066
